@@ -5,7 +5,6 @@ import romano_centenas from "./romano_centenas.js";
 function romano(num)
 {
   let numromano = "";
-
     let u = num % 10; //hallamos el numero de la unidad
     num = Math.floor(num/10);
     let d = num%10; //hallamos el numero de la decena
