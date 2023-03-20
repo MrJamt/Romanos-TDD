@@ -12,4 +12,8 @@ describe("Romanos", () => {
   it("Genenar numero romano de 10", () => {
     expect(romano(10)).toEqual('X');
   });
+
+  it("Genenar numero romano de 50", () => {
+    expect(romano(50)).toEqual('L');
+  });
 });

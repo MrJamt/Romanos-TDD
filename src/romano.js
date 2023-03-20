@@ -7,6 +7,8 @@ function romano(num)
       return "V";
     case 10:
       return "X";
+    case 50:
+      return "L";
   }
 }
 
