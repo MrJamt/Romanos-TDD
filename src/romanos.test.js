@@ -28,4 +28,8 @@ describe("Romanos", () => {
   it("Genenar numero romano de 17", () => {
     expect(romano(17)).toEqual('XVII');
   });
+
+  it("Genenar numero romano de 103", () => {
+    expect(romano(103)).toEqual('CIII');
+  });
 });
