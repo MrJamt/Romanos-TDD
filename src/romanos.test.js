@@ -1,7 +1,7 @@
-//import sumar from "./sumador.js";
+import romano from "./romano.js";
 
 describe("Romanos", () => {
-  it("", () => {
-    //expect(true).toEqual(true);
+  it("Genenar numero romano de 1", () => {
+    expect(romano(1)).toEqual('I');
   });
 });
