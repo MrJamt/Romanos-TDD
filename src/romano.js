@@ -9,6 +9,8 @@ function romano(num)
       return "X";
     case 50:
       return "L";
+    case 100:
+      return "C";
   }
 }
 
