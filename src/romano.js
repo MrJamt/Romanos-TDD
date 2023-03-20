@@ -1,9 +1,13 @@
 function romano(num)
 {
-  if(num==1)
-    return "I";
-  else if(num==5)
-    return "V";
+  switch(num) {
+    case 1:
+      return "I";
+    case 5:
+      return "V";
+    case 10:
+      return "X";
+  }
 }
 
 export default romano;
